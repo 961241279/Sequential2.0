@@ -99,7 +99,7 @@ mkdir -p save/pretrained
 if ! [ -f $HUBERT_PATH ]; then
     wget https://dl.fbaipublicfiles.com/hubert/hubert_base_ls960.pt -O  $HUBERT_PATH
 fi
-if ! [ -f $HUBERT_PATH ]; then
+if ! [ -f $FAT_PATH ]; then
     wget 
 https://paddlespeech.bj.bcebos.com/s2t/ted_en_zh/st1/paddle.98.pdparams --no-check-certificate -O $FAT_PATH
 fi
