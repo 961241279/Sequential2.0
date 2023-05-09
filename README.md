@@ -81,9 +81,9 @@ Paper link:&#x20;
 mkdir -p manifest/librispeech/train-960
 python -m examples.wav2vec.wav2vec_manifest LIBRISPEECH_PATH  --dest manifest/librispeech/train-960 --ext flac --valid-percent 0.01 --path-must-contain train
 #aishell:
-python local/aishell.py --tgt-dir=YOUR_DATASET_DIR --src-dir=manifest/aishell
+python utils/aishell.py --tgt-dir=YOUR_DATASET_DIR --src-dir=manifest/aishell
 #ted_en_zh:
-python local/ted_en_zh.py --tgt-dir=YOUR_DATASET_DIR --src-dir=
+python utils/ted_en_zh.py --tgt-dir=YOUR_DATASET_DIR --src-dir=
 manifest/ted_en_zh
 ```
 
@@ -103,8 +103,8 @@ if ! [ -f $HUBERT_PATH ]; then
     wget 
 https://paddlespeech.bj.bcebos.com/s2t/ted_en_zh/st1/paddle.98.pdparams --no-check-certificate -O $FAT_PATH
 fi
-bash scripts/pl/extract-hubert-features.sh $HUBERT_PATH 9 2 2 500 False
-bash scripts/pl/extract-hubert-features.sh $FAT_PATH 9 2 2 500 True
+bash scripts/pl/extract-features.sh $HUBERT_PATH 9 2 2 500 False
+bash scripts/pl/extract-features.sh $FAT_PATH 9 2 2 500 True
 ```
 
 where 9, 2, 2, 500 means that we use the 9-th layer of HuBERT, kernel size 2 and stride size 2 for average pooling, and 500 custers in k-means.
@@ -112,8 +112,8 @@ where 9, 2, 2, 500 means that we use the 9-th layer of HuBERT, kernel size 2 and
 1.  Training BPE model and create pseudo subword tokens.
 
 ```sh
-bash scripts/pl/create-hubert-pseudo-language.sh labels/hubert_base-l9-k2s2-fp16-ls0.1/c500 30000
-bash scripts/pl/create-hubert-pseudo-language.sh labels/fat-l9-k2s2-fp16-ls0.1/c500 30000
+bash scripts/pl/create-pseudo-language.sh labels/hubert_base-l9-k2s2-fp16-ls0.1/c500 30000
+bash scripts/pl/create-pseudo-language.sh labels/fat-l9-k2s2-fp16-ls0.1/c500 30000
 ```
 
 ### Pre-training Sequntial2.0
