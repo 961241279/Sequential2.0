@@ -16,16 +16,16 @@ Paper link:&#x20;
 | Sequtial2.0 (from HuBERT-base)    | 400K + 25K           | LibriSpeech 960h                  | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-hubert-base-25k.pt)  |
 | Sequtial2.0  (from HuBERT-base)   | 400K + 100K          | LibriSpeech 960h                  | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-hubert-base-100k.pt) |
 | Sequtial2.0  (from fat\_*en\_zh*) | 400K + 25K           | AiShell 10Kh                      | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-hubert-large-25k.pt) |
-| Wav2Seq (from fat\_*en\_zh*)      | 400K + 25K           | ted\_*en\_*zh 2kh -> AiShell 10Kh | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-xlsr-300m-25k.pt)    |
+| Sequtial2.0 (from fat\_*en\_zh*)  | 400K + 25K           | ted\_*en\_*zh 2kh -> AiShell 10Kh | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-xlsr-300m-25k.pt)    |
 
 ### Fine-tuned Models
 
-| Model                          | Pre-training updates | Finetuning split   | Link                                                                                                                      |
-| ------------------------------ | -------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| Sequtial2.0 (from HuBERT-base) | 400K + 25K           | LibriSpeech 10h    | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-25k-ft-10h.pt)   |
-| Wav2Seq (from HuBERT-base)     | 400K + 100K          | LibriSpeech 100h   | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-100k-ft-10h.pt)  |
-| Wav2Seq (from fat\_*en\_zh*)   | 400K + 25K           | ted\_*en\_*zh 10h  | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-25k-ft-100h.pt)  |
-| Wav2Seq (from fat\_*en\_zh*)   | 400K + 100K          | ted\_*en\_*zh 100h | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-100k-ft-100h.pt) |
+| Model                            | Pre-training updates | Finetuning split   | Link                                                                                                                      |
+| -------------------------------- | -------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| Sequtial2.0 (from HuBERT-base)   | 400K + 25K           | LibriSpeech 10h    | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-25k-ft-10h.pt)   |
+| Sequtial2.0 (from HuBERT-base)   | 400K + 100K          | LibriSpeech 100h   | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-100k-ft-10h.pt)  |
+| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 25K           | ted\_*en\_*zh 10h  | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-25k-ft-100h.pt)  |
+| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 100K          | ted\_*en\_*zh 100h | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-100k-ft-100h.pt) |
 
 ### Pre-trained k-means Models for Psuedo Characters
 
