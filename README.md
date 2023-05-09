@@ -81,7 +81,7 @@ Paper link:&#x20;
 mkdir -p manifest/librispeech/train-960
 python -m examples.wav2vec.wav2vec_manifest LIBRISPEECH_PATH  --dest manifest/librispeech/train-960 --ext flac --valid-percent 0.01 --path-must-contain train
 #aishell:
-python local/ted_en_zh.py --tgt-dir=YOUR_DATASET_DIR --src-dir=manifest/aishell
+python local/aishell.py --tgt-dir=YOUR_DATASET_DIR --src-dir=manifest/aishell
 #ted_en_zh:
 python local/ted_en_zh.py --tgt-dir=YOUR_DATASET_DIR --src-dir=
 manifest/ted_en_zh
