@@ -44,8 +44,8 @@ Paper link:&#x20;
 | 25                 | 10000              | [Download](https://pan.quark.cn/s/80053e5c3e27) |
 | 25                 | 30000              | [Download](https://pan.quark.cn/s/3023eb6fcd0b) |
 | 100                | 3000               | [Download](https://pan.quark.cn/s/e6fdc6055d15) |
-| 100                | 10000              | [Download](https://pan.quark.cn/s/a28c8c56a58b) |
-| 100                | 30000              | [Download](https://pan.quark.cn/s/4ea792b1d9e2) |
+| 100                | 10000              | [Download](https://pan.quark.cn/s/bb4edd338925) |
+| 100                | 30000              | [Download](https://pan.quark.cn/s/dfe5b3cd9b98) |
 | 500                | 3000               | [Download](https://pan.quark.cn/s/bfcb7ccfeac7) |
 | 500                | 10000              | [Download](https://pan.quark.cn/s/5f06cb181fd3) |
 | 500                | 30000              | [Download](https://pan.quark.cn/s/c5e5fdbd1f82) |
