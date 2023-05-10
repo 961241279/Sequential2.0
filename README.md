@@ -11,44 +11,44 @@ Paper link:&#x20;
 
 ### Pre-trained Models
 
-| Model                             | Pre-training updates | Dataset                           | Link                                                                  |
-| --------------------------------- | -------------------- | --------------------------------- | --------------------------------------------------------------------- |
-| Sequtial2.0 (from HuBERT-base)    | 400K + 25K           | LibriSpeech 960h                  | [Download](https://1drv.ms/u/s!Alpovoi4BA48nBJLGH1UhvRid2iT?e=VdQCzb) |
-| Sequtial2.0  (from HuBERT-base)   | 400K + 100K          | LibriSpeech 960h                  | [Download](https://1drv.ms/u/s!Alpovoi4BA48nBEWvwodv4EuL4c9?e=AVRuO2) |
-| Sequtial2.0  (from fat\_*en\_zh*) | 400K + 25K           | AiShell 10Kh                      | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAw3MAAvrfCLL_aK?e=9NIAzU) |
-| Sequtial2.0 (from fat\_*en\_zh*)  | 400K + 25K           | ted\_*en\_*zh 2kh -> AiShell 10Kh | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAt27GsNejkumbVb?e=sjPO6X) |
+| Model                             | Pre-training updates | Dataset                           | Link                                            |
+| --------------------------------- | -------------------- | --------------------------------- | ----------------------------------------------- |
+| Sequtial2.0 (from HuBERT-base)    | 400K + 25K           | LibriSpeech 960h                  | [Download](https://pan.quark.cn/s/1533ef709ade) |
+| Sequtial2.0  (from HuBERT-base)   | 400K + 100K          | LibriSpeech 960h                  | [Download](https://pan.quark.cn/s/b8fb4ef3fa7c) |
+| Sequtial2.0  (from fat\_*en\_zh*) | 400K + 25K           | AiShell 10Kh                      | [Download](https://pan.quark.cn/s/47338650db69) |
+| Sequtial2.0 (from fat\_*en\_zh*)  | 400K + 25K           | ted\_*en\_*zh 2kh -> AiShell 10Kh | [Download](https://pan.quark.cn/s/1c5f3cb54ea1) |
 
 ### Fine-tuned Models
 
-| Model                            | Pre-training updates | Finetuning split   | Link                                                                                                                     |
-| -------------------------------- | -------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| Sequtial2.0 (from HuBERT-base)   | 400K + 25K           | LibriSpeech 10h    | [Download](https://1drv.ms/u/s!Alpovoi4BA48nA5k25pJzyftOg_C?e=wvhcRz)                                                    |
-| Sequtial2.0 (from HuBERT-base)   | 400K + 100K          | LibriSpeech 100h   | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-100k-ft-10h.pt) |
-| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 25K           | ted\_*en\_*zh 10h  | [Download](https://1drv.ms/u/s!Alpovoi4BA48nA_h3BC4CC3mngMo?e=rNt2ph)                                                    |
-| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 100K          | ted\_*en\_*zh 100h | [Download](https://1drv.ms/u/s!Alpovoi4BA48nA3w4o0rs139MAHr?e=W1ptmw)                                                    |
+| Model                            | Pre-training updates | Finetuning split   | Link                                            |
+| -------------------------------- | -------------------- | ------------------ | ----------------------------------------------- |
+| Sequtial2.0 (from HuBERT-base)   | 400K + 25K           | LibriSpeech 10h    | [Download](https://pan.quark.cn/s/4df2a46717ec) |
+| Sequtial2.0 (from HuBERT-base)   | 400K + 100K          | LibriSpeech 100h   | [Download](https://pan.quark.cn/s/e917cd9df6b3) |
+| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 25K           | ted\_*en\_*zh 10h  | [Download](https://pan.quark.cn/s/e32f0c4be117) |
+| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 100K          | ted\_*en\_*zh 100h | [Download](https://pan.quark.cn/s/86d6f9464785) |
 
 ### Pre-trained k-means Models for Psuedo Characters
 
-| Number of Clusters | Link                                                                  |
-| ------------------ | --------------------------------------------------------------------- |
-| 25                 | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAlhjr47-UiyiS_j?e=Oy3o2v) |
-| 100                | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAod4VYjFgGnmxMq?e=7F7Kpm) |
-| 500                | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAN7Nf9xSsCQegZn?e=RKxeMd) |
+| Number of Clusters | Link                                            |
+| ------------------ | ----------------------------------------------- |
+| 25                 | [Download](https://pan.quark.cn/s/9629ad740610) |
+| 100                | [Download](https://pan.quark.cn/s/d49dffb46469) |
+| 500                | [Download](https://pan.quark.cn/s/4fae00447574) |
 
 ### Pre-trained BPE model for Psuedo Subwords
 
-| Number of Clusters | Number of Subwords | Link                                                                  |
-| ------------------ | ------------------ | --------------------------------------------------------------------- |
-| 25                 | 1000               | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAh86a6s4sO94p2d?e=zsadLb) |
-| 25                 | 3000               | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAc47HCqyMVtAFou?e=nerLEq) |
-| 25                 | 10000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAaJ42UrKcn1Ozjr?e=nN1ER6) |
-| 25                 | 30000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAXYCTpNFIgfj63j?e=R1D53d) |
-| 100                | 3000               | [Download](https://1drv.ms/u/s!Alpovoi4BA48nARGoNP9FFBEvASk?e=nfW9NL) |
-| 100                | 10000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAKhchtBFCBf_5Kb?e=mnHo7W) |
-| 100                | 30000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAGIxXzEy1XAPlRj?e=srM62J) |
-| 500                | 3000               | [Download](https://1drv.ms/u/s!Alpovoi4BA48nADinAKHZfTk3AXp?e=6o9iFT) |
-| 500                | 10000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48m34kYuJCnl_m4Uld?e=KXatUo) |
-| 500                | 30000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48m3_A8gbG-KyEac0D?e=ysr5Jh) |
+| Number of Clusters | Number of Subwords | Link                                            |
+| ------------------ | ------------------ | ----------------------------------------------- |
+| 25                 | 1000               | [Download](https://pan.quark.cn/s/e1665db7d801) |
+| 25                 | 3000               | [Download](https://pan.quark.cn/s/9d1a55e1a0c8) |
+| 25                 | 10000              | [Download](https://pan.quark.cn/s/80053e5c3e27) |
+| 25                 | 30000              | [Download](https://pan.quark.cn/s/3023eb6fcd0b) |
+| 100                | 3000               | [Download](https://pan.quark.cn/s/e6fdc6055d15) |
+| 100                | 10000              | [Download](https://pan.quark.cn/s/a28c8c56a58b) |
+| 100                | 30000              | [Download](https://pan.quark.cn/s/4ea792b1d9e2) |
+| 500                | 3000               | [Download](https://pan.quark.cn/s/bfcb7ccfeac7) |
+| 500                | 10000              | [Download](https://pan.quark.cn/s/5f06cb181fd3) |
+| 500                | 30000              | [Download](https://pan.quark.cn/s/c5e5fdbd1f82) |
 
 ## Usage
 
@@ -73,7 +73,7 @@ Paper link:&#x20;
 
 ### Download the manifests generated by Paddle
 
-1.  Please download the files from: [manifests](https://1drv.ms/f/s!Alpovoi4BA48m315rl76xHetZ4hi?e=FrgUsH)
+1.  Please download the files from: [manifests](https://pan.quark.cn/s/49c49921b75d)
 2.  unzipped and put these files under "data/"
 
 ### Creatining Psuedo Subword Tokens
