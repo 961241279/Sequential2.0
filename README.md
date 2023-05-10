@@ -11,44 +11,44 @@ Paper link:&#x20;
 
 ### Pre-trained Models
 
-| Model                             | Pre-training updates | Dataset                           | Link                                                                                                              |
-| --------------------------------- | -------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Sequtial2.0 (from HuBERT-base)    | 400K + 25K           | LibriSpeech 960h                  | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-hubert-base-25k.pt)  |
-| Sequtial2.0  (from HuBERT-base)   | 400K + 100K          | LibriSpeech 960h                  | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-hubert-base-100k.pt) |
-| Sequtial2.0  (from fat\_*en\_zh*) | 400K + 25K           | AiShell 10Kh                      | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-hubert-large-25k.pt) |
-| Sequtial2.0 (from fat\_*en\_zh*)  | 400K + 25K           | ted\_*en\_*zh 2kh -> AiShell 10Kh | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/pt/wav2seq-xlsr-300m-25k.pt)    |
+| Model                             | Pre-training updates | Dataset                           | Link                                                                  |
+| --------------------------------- | -------------------- | --------------------------------- | --------------------------------------------------------------------- |
+| Sequtial2.0 (from HuBERT-base)    | 400K + 25K           | LibriSpeech 960h                  | [Download](https://1drv.ms/u/s!Alpovoi4BA48nBJLGH1UhvRid2iT?e=VdQCzb) |
+| Sequtial2.0  (from HuBERT-base)   | 400K + 100K          | LibriSpeech 960h                  | [Download](https://1drv.ms/u/s!Alpovoi4BA48nBEWvwodv4EuL4c9?e=AVRuO2) |
+| Sequtial2.0  (from fat\_*en\_zh*) | 400K + 25K           | AiShell 10Kh                      | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAw3MAAvrfCLL_aK?e=9NIAzU) |
+| Sequtial2.0 (from fat\_*en\_zh*)  | 400K + 25K           | ted\_*en\_*zh 2kh -> AiShell 10Kh | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAt27GsNejkumbVb?e=sjPO6X) |
 
 ### Fine-tuned Models
 
-| Model                            | Pre-training updates | Finetuning split   | Link                                                                                                                      |
-| -------------------------------- | -------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| Sequtial2.0 (from HuBERT-base)   | 400K + 25K           | LibriSpeech 10h    | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-25k-ft-10h.pt)   |
-| Sequtial2.0 (from HuBERT-base)   | 400K + 100K          | LibriSpeech 100h   | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-100k-ft-10h.pt)  |
-| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 25K           | ted\_*en\_*zh 10h  | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-25k-ft-100h.pt)  |
-| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 100K          | ted\_*en\_*zh 100h | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-100k-ft-100h.pt) |
+| Model                            | Pre-training updates | Finetuning split   | Link                                                                                                                     |
+| -------------------------------- | -------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Sequtial2.0 (from HuBERT-base)   | 400K + 25K           | LibriSpeech 10h    | [Download](https://1drv.ms/u/s!Alpovoi4BA48nA5k25pJzyftOg_C?e=wvhcRz)                                                    |
+| Sequtial2.0 (from HuBERT-base)   | 400K + 100K          | LibriSpeech 100h   | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/ft/wav2seq-hubert-base-100k-ft-10h.pt) |
+| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 25K           | ted\_*en\_*zh 10h  | [Download](https://1drv.ms/u/s!Alpovoi4BA48nA_h3BC4CC3mngMo?e=rNt2ph)                                                    |
+| Sequtial2.0 (from fat\_*en\_zh*) | 400K + 100K          | ted\_*en\_*zh 100h | [Download](https://1drv.ms/u/s!Alpovoi4BA48nA3w4o0rs139MAHr?e=W1ptmw)                                                    |
 
 ### Pre-trained k-means Models for Psuedo Characters
 
-| Number of Clusters | Link                                                                                                                             |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| 25                 | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/km/hubert_base-l9-k2s2-fp16-ls0.1-c25-km.pkl)  |
-| 100                | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/km/hubert_base-l9-k2s2-fp16-ls0.1-c100-km.pkl) |
-| 500                | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/km/hubert_base-l9-k2s2-fp16-ls0.1-c500-km.pkl) |
+| Number of Clusters | Link                                                                  |
+| ------------------ | --------------------------------------------------------------------- |
+| 25                 | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAlhjr47-UiyiS_j?e=Oy3o2v) |
+| 100                | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAod4VYjFgGnmxMq?e=7F7Kpm) |
+| 500                | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAN7Nf9xSsCQegZn?e=RKxeMd) |
 
 ### Pre-trained BPE model for Psuedo Subwords
 
-| Number of Clusters | Number of Subwords | Link                                                                                                                            |
-| ------------------ | ------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| 25                 | 1000               | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c25-bpe-tokenizer-vocab1000.json)   |
-| 25                 | 3000               | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c25-bpe-tokenizer-vocab3000.json)   |
-| 25                 | 10000              | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c25-bpe-tokenizer-vocab10000.json)  |
-| 25                 | 30000              | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c25-bpe-tokenizer-vocab30000.json)  |
-| 100                | 3000               | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c100-bpe-tokenizer-vocab3000.json)  |
-| 100                | 10000              | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c100-bpe-tokenizer-vocab10000.json) |
-| 100                | 30000              | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c100-bpe-tokenizer-vocab30000.json) |
-| 500                | 3000               | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c500-bpe-tokenizer-vocab3000.json)  |
-| 500                | 10000              | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c500-bpe-tokenizer-vocab10000.json) |
-| 500                | 30000              | [Download](https://public-dataset-model-store.awsdev.asapp.com/fwu/wav2seq/public/tokenizer/c500-bpe-tokenizer-vocab30000.json) |
+| Number of Clusters | Number of Subwords | Link                                                                  |
+| ------------------ | ------------------ | --------------------------------------------------------------------- |
+| 25                 | 1000               | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAh86a6s4sO94p2d?e=zsadLb) |
+| 25                 | 3000               | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAc47HCqyMVtAFou?e=nerLEq) |
+| 25                 | 10000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAaJ42UrKcn1Ozjr?e=nN1ER6) |
+| 25                 | 30000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAXYCTpNFIgfj63j?e=R1D53d) |
+| 100                | 3000               | [Download](https://1drv.ms/u/s!Alpovoi4BA48nARGoNP9FFBEvASk?e=nfW9NL) |
+| 100                | 10000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAKhchtBFCBf_5Kb?e=mnHo7W) |
+| 100                | 30000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48nAGIxXzEy1XAPlRj?e=srM62J) |
+| 500                | 3000               | [Download](https://1drv.ms/u/s!Alpovoi4BA48nADinAKHZfTk3AXp?e=6o9iFT) |
+| 500                | 10000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48m34kYuJCnl_m4Uld?e=KXatUo) |
+| 500                | 30000              | [Download](https://1drv.ms/u/s!Alpovoi4BA48m3_A8gbG-KyEac0D?e=ysr5Jh) |
 
 ## Usage
 
@@ -70,6 +70,11 @@ Paper link:&#x20;
     git clone git@github.com:961241279/Sequential2.0.git
     cd wav2seq
     pip install -e .
+
+### Download the manifests generated by Paddle
+
+1.  Please download the files from: [manifests](https://1drv.ms/f/s!Alpovoi4BA48m315rl76xHetZ4hi?e=FrgUsH)
+2.  unzipped and put these files under "data/"
 
 ### Creatining Psuedo Subword Tokens
 
