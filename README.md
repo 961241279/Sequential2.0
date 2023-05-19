@@ -11,12 +11,12 @@ Paper link:&#x20;
 
 ### Pre-trained Models
 
-| Model                             | Pre-training updates | Dataset                           | Link                                            |
-| --------------------------------- | -------------------- | --------------------------------- | ----------------------------------------------- |
-| Sequtial2.0 (from HuBERT-base)    | 400K + 25K           | LibriSpeech 960h                  | [Download](https://pan.quark.cn/s/1533ef709ade) |
-| Sequtial2.0  (from HuBERT-base)   | 400K + 100K          | LibriSpeech 960h                  | [Download](https://pan.quark.cn/s/b8fb4ef3fa7c) |
-| Sequtial2.0  (from fat\_*en\_zh*) | 400K + 25K           | AiShell 10Kh                      | [Download](https://pan.quark.cn/s/47338650db69) |
-| Sequtial2.0 (from fat\_*en\_zh*)  | 400K + 25K           | ted\_*en\_*zh 2kh -> AiShell 10Kh | [Download](https://pan.quark.cn/s/1c5f3cb54ea1) |
+| Model                             | Pre-training updates | Dataset          | Link                                            |
+| --------------------------------- | -------------------- | ---------------- | ----------------------------------------------- |
+| Sequtial2.0 (from HuBERT-base)    | 400K + 25K           | LibriSpeech 960h | [Download](https://pan.quark.cn/s/1533ef709ade) |
+| Sequtial2.0  (from HuBERT-base)   | 400K + 100K          | LibriSpeech 960h | [Download](https://pan.quark.cn/s/b8fb4ef3fa7c) |
+| Sequtial2.0  (from fat\_*en\_zh*) | 400K + 25K           | AiShell 10Kh     | [Download](https://pan.quark.cn/s/47338650db69) |
+| Sequtial2.0 (from fat\_*en\_zh*)  | 400K + 100K          | AiShell 10Kh     | [Download](https://pan.quark.cn/s/1c5f3cb54ea1) |
 
 ### Fine-tuned Models
 
